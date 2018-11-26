@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container-fluid{
+    background: url("images/bg-image.jpg") no-repeat;
+    padding-bottom: 165px;
+}
+.main-container .navbar-default{
+    background: none;
+    border-bottom: 1px solid #fff;
+    border:0px;
+}
+
+.main-container .navbar-default .navbar-nav>.active>a,
+.main-container .navbar-default .navbar-nav>.active>a:focus, 
+.main-container .navbar-default .navbar-nav>.active>a:hover,
+.main-container .navbar-menu .navbar-nav>.active>a,
+.main-container .navbar-menu .navbar-nav> li > a:focus, 
+.main-container .navbar-menu .navbar-nav> li > a:hover,
+.main-container .services .nav-tabs> li.active> a, 
+.main-container .services .nav-tabs> li > a:focus, 
+.main-container .services .nav-tabs> li > a:hover
+{
+    background: none;
+    color: #fff;
+    border:0px;
+}
+
+.main-container a{
+    color:#fff !important;
+}
+
+
+.main-container .navbar-menu > .navbar-nav > li > a > i, .main-container .services .nav-tabs > li > a > i{
+    padding-right:10px;
+}
+.main-container .navbar-menu .navbar-nav > .active {
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+.main-container .services{
+    margin-top:150px;
+    width:55%;
+}
+.main-container h1{
+    color: #fff;
+    margin:0px;
+}
+.main-container .services .nav-tabs{
+    border:0px !important;
+}
+.main-container .services .nav-tabs > .active{
+    background-color: #d9534f;
+}
+.main-container .services .nav-tabs > .active > a, .main-container .services .nav-tabs > li.active > a:hover  {
+    background-color: #d9534f;
+    border:0px;
+    border-radius:0px;
+    color:#fff;
+}
+.main-container .services .nav-tabs  > li {
+    background-color:rgb(82, 86, 89);
+    border-right:1px solid #fff;
+}
+.main-container .services .nav-tabs  > li > a {
+    border:0px;
+    border-radius:0px;
+    color:#fff;
+}
+.main-container .services .nav-tabs .btn-danger {
+padding:0px 12px;
+border:0px;
+}
+.main-container .services .tab-content{
+    padding:50px 30px;
+    border-top: 5px solid #d9534f;
+    background: #fff;
+    height:350px;
+}
+.main-container .services .tab-content h3{
+    margin:0px;
+}
+.main-container .services .tab-content .btn-group{
+    position: absolute;
+    right:15px;
+    top:-5px;
+}
+.main-container .services .tab-content input{
+    border-radius:0px;
+}
+.main-container .services .tab-content i{
+    color:#d9534f;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+.seperator{
+    padding-top:15px;
+    clear:both;
+}
+.btn-search{
+    box-shadow: 0px 2px red;
+}
+.btn-search a:hover{
+    text-decoration: none;
+}
+#btns .highlight{
+    background: #d9534f;
+}
+.page-not-found{
+    clear:both;
+    text-align: center;
+    padding:239px 0;
+}
+.main-container .pad-left0{
+    padding-left:0px;
+}
+a.carousel .left carousel-control {
+    visibility: hidden;
+}
